@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2{
+    font-family: "Oswald", serif;
+}
+
+h3{
+    font-family: 'Oswald';
+}
+
+.green{
+    color: #5fb45d;
+}
+
+.dark-green{
+    color: #29a527;
+}
+
+.blue{
+    color: #1a58a5;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", serif;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button{
+    background-color: #5fb45d;
+    color: white;
+    text-decoration: initial;
+    text-transform: uppercase;
+    padding: 8px 18px 8px 18px;
+    border: 0.5px solid #5fb45d;
+    border-radius: 100px;
+    font-family: "Oswald", serif;
+}
+
+.button:hover{
+    box-shadow: 0 0 10px #5fb45d;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color: initial;
+    text-decoration: initial;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    text-shadow: 1px 1px 5px #5fb45d;
+}
+
+.menu ul li a.active{
+    text-shadow: 1px 1px 5px #5fb45d;
+}
+
+nav button{
+    justify-self: end;
+    text-transform: uppercase;
+}
+
+.carrousel{
+    /*max-width: calc(100% - 60px);*/
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.carrousel img{
+    height: 575px;
+}
+
+.banner-programme{
+    width: 100%;
+    background-color: #5fb45d;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: larger;
+}
+
+.banner-programme a:hover{
+    text-shadow: 1px 1px 5px white;
+}
+
+.section-actualites{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 4%;
+    background: url(images/bg-projection.jpg) center no-repeat fixed;
+}
+
+.page-actualites{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    background: url(images/bg-projection.jpg) center no-repeat fixed;
+}
+
+.actus-plus{
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actus-plus a{
+    font-family: oswald;
+    text-transform: uppercase;
+}
+
+.actus-plus a:hover{
+    text-shadow: 1px 1px 5px #5fb45d;
+}
+
+.container-actus{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.actus{
+    background-color: white;
+    color: #5fb45d;
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.actus-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.actus img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.actus-txt{
+    padding: 20px;
+}
+
+.actus h1{
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.actus h1, p, a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.actus p.date{
+    color: #1a58a5;
+    font-size: smaller;
+}
+
+.actus a{
+    padding-bottom: 5px;
+}
+
+.actus .button{
+    margin-top: 30px;
+}
+
+.reservation{
+    height: 350px;
+    display: flex;
+    color: white;
+    background-color: #5fb45d;
+    /*text-shadow: 1px 1px 5px black;*/
+}
+
+.reservation .banniere{
+    width: 50%;
+    background-image: url(images/img-festival.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reservation .informations{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations h1{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.informations .button{
+    background-color: white;
+    color: #5fb45d;
+    margin-top: 15px;
+    border: 0.5px solid white;
+}
+
+.informations .button:hover{
+    box-shadow: 0 0 10px white;
+}
+
+footer{
+    height: 200px;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-size: medium;
+}
+footer ul li{
+    display: inline;
+}
+
+footer ul.reseaux li a img{
+    width: 20px;
+    height: 20px;
+}
+
+footer ul.reseaux a{
+    margin-right: 10px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-around;
+}
+
+footer div.left-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .right-col img{
+    width: 150px;
+}
+
+.copyright{
+    background-color: #171717;
+    color: #646464;
+    width: 100%;
+    text-align: center;
+    align-self: end;
+    padding: 6px;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.pre-inscription, .contact, .programme{
+    padding-top: 50px;
+}
+
+.form-group p{
+    font-family: 'Oswald';
+    font-size: x-large;
+}
+
+.h1-pi, .h1-programme, .h1-actualites{
+    text-align: center;
+}
+
+.h1-actualites{
+    margin-bottom: 30px;
+}
+
+.programme{
+    padding: 50px;
+}
+
+.seance-titre{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.day{
+    margin-top: 20px;
+}
+
+.day h1{
+    font-size: x-large;
+}
+
+.seances{
+    display: flex;
+    margin-top: 20px;
+}
+
+.seance1-container, .seance2-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.seance1-container p, .seance2-container p{
+    padding: 0;
+}
+
+.auteur-film{
+    margin-top: 5px;
+    font-size: small;
+}
+
+.description-film{
+    margin-top: 15px;
+}
+
+.seance1-container{
+    background-color: #29a527;
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+    color: white;
+}
+
+.seance2-container{
+    background-color: #1a58a5;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    color: white;
+}
+
+.s1, .s2{
+    display: flex;
+}
+
+.s1-txt, .s2-txt{
+    margin-left: 10px;
+}
+
+.seances img{
+    width: 180px;
+    height: 250px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+}
+
+.checkbox{
+    display: inline;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"]{
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 150px;
+}
+
+.button-form{
+    width: 100%;
+    padding: 10px;
+    background-color: #5fb45d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button-form:hover{
+    background-color: #45a049;
+}
+
+form p{
+    text-align: center;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice{
+    width: 50%;
+}
+
+legend{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#nom-prenom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nom, .prenom{
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .hidden{
+        display: none;
+    }
+  }

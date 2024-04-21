@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Films de Plein Air - Pré-inscription</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='styles2.css'>
+      <link rel='icon' href="images/favicon.svg" type="image/x-icon">
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&display=swap" rel="stylesheet">
+      <!-- Slick CSS -->
+      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> <!-- modifiable -->
+  </head>
+  <body>
+      <header>
+          <nav>
+            <a href="#"><img src="images/logo.svg" alt="logo-films-plein-air"></a>
+            <div class="menu">
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li>|</li>
+                <li><a href="programme.html">Programme</a></li>
+                <li>|</li>
+                <li><a href="actualites.html">Actualités</a></li>
+              </ul>
+            </div>
+            <a class="button" href="pre-inscription.html">Pré-inscription</a>
+          </nav>
+      </header>
+      <main>
+        <div class="pre-inscription">
+          <h1 class="h1-pi">Formulaire de pré-inscription</h1>
+          <form action="" method="post">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="nombre_personnes">Nombre de personnes :</label>
+              <input type="number" id="nombre_personnes" name="nombre_personnes" min="1" max="10" required>
+            </div>
+            <div class="form-group">
+                <p>Choix de la séance :</p>
+                <legend>Jour 1 // Lundi 05 août</legend>
+                <div class="choices">
+                  <div class="choice">
+                    <input type="checkbox" id="la-la-land" name="movie" value="huey"/>
+                    <label class="checkbox" for="la-la-land">18h - La La Land</label>
+                  </div>
+                  <div class="choice">
+                    <input type="checkbox" id="birdman" name="movie" value="birdman"/>
+                    <label class="checkbox" for="birdman">21h - Birdman </label>
+                  </div>
+                </div>
+
+                <legend>Jour 2 // Mardi 06 août</legend>
+                <div class="choices">
+                  <div class="choice">
+                    <input type="checkbox" id="le-fabuleux-destin-damelie-poulain" name="movie" value="le-fabuleux-destin-damelie-poulain"/>
+                    <label class="checkbox" for="le-fabuleux-destin-damelie-poulain">18h - Le Fabuleux Destin d'Amélie Poulain</label>
+                  </div>
+                  <div class="choice">
+                    <input type="checkbox" id="le-ruban-blanc" name="movie" value="le-ruban-blanc"/>
+                    <label class="checkbox" for="le-ruban-blanc">21h - Le Ruban Blanc</label>
+                  </div>
+                </div>
+
+                <legend>Jour 3 // Mercredi 07 août</legend>
+                <div class="choices">
+                  <div class="choice">
+                    <input type="checkbox" id="lodyssee-de-lespace" name="movie" value="lodyssee-de-lespace"/>
+                    <label class="checkbox" for="lodyssee-de-lespace">18h - l'Odyssée de l'Espace</label>
+                  </div>
+                  <div class="choice">
+                    <input type="checkbox" id="blade-runner" name="movie" value="blade-runner"/>
+                    <label class="checkbox" for="blade-runner">21h - Blade Runner</label>
+                  </div>
+                </div>
+
+                <legend>Jour 4 // Jeudi 08 août</legend>
+                <div class="choices">
+                  <div class="choice">
+                    <input type="checkbox" id="le-voyage-de-chihiro" name="movie" value="le-voyage-de-chihiro"/>
+                    <label class="checkbox" for="le-voyage-de-chihiro">18h - Le Voyage de Chihiro</label>
+                  </div>
+                  <div class="choice">
+                    <input type="checkbox" id="le-tombeau-des-lucioles" name="movie" value="le-tombeau-des-lucioles"/>
+                    <label class="checkbox" for="le-tombeau-des-lucioles">21h - Le Tombeau des Lucioles</label>
+                  </div>
+                </div>
+            </div>
+            <button class="button-form" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <div class="columns">
+            
+            <div class="left-col"><a class="button" href="contact.html">Nous Contacter</a>
+              <ul class="reseaux">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt=""></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt=""></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt=""></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="images/x.svg" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="right-col">
+              <img src="images/logo.svg" alt="">
+            </div>
+          </div>
+          <ul>
+            <li><a href="">Politique de Confidentialité</a></li>
+            <li>|</li>
+            <li><a href="">Mentions Légales</a></li>
+            <li>|</li>
+            <li><a href="">Préférences Cookies</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+        <p>Copyright &copy; 2024 - Festival de Films de Plein Air - Tous droits réservés.</p>
+        </div>
+      </footer>
+  
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+
+      <script type="text/javascript">
+        $('.carrousel').slick({
+          //dots: true,
+          infinite: true,
+          centerMode: true,
+          variableWidth: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      </script>
+  </body>
+</html>
