@@ -306,7 +306,6 @@ footer ul.reseaux a{
 .columns{
     display: flex;
     flex-direction: row;
-    width: 25%;
     justify-content: space-around;
 }
 
@@ -544,6 +543,7 @@ legend{
     .dropbtn {
         background-color: #4CAF50;
         color: white;
+        font-family: "Roboto";
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -605,6 +605,10 @@ legend{
         font-size: 16px;
     }
 
+    .programme{
+        padding: 10px;
+    }
+
     .seance-titre{
         display: none;
     }
@@ -638,5 +642,9 @@ legend{
         text-align: center;
         margin-bottom: 20px;
         font-size: 30px;
+    }
+
+    footer ul.footer-links{
+        text-align: center;
     }
   }
