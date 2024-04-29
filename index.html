@@ -5,7 +5,7 @@
       <meta http-equiv='X-UA-Compatible' content='IE=edge'>
       <title>Films de Plein Air - Accueil</title>
       <meta name='viewport' content='width=device-width, initial-scale=1'>
-      <link rel='stylesheet' type='text/css' media='screen' href='styles2.css'>
+      <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
       <link rel='icon' href="images/favicon.svg" type="image/x-icon">
       <!-- Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
       <header>
           <nav>
             <a href="#"><img src="images/logo.svg" alt="logo-films-plein-air"></a>
-            <div class="menu">
+            <div class="menu menu-pc">
               <ul>
                 <li><a class="active" href="index.html">Accueil</a></li>
                 <li>|</li>
@@ -28,7 +28,17 @@
                 <li><a href="actualites.html">Actualités</a></li>
               </ul>
             </div>
-            <a class="button" href="pre-inscription.html">Pré-inscription</a>
+            <div class="menu dropdown">
+              <button class="dropbtn">Menu</button>
+              <ul class="dropdown-content">
+                <li><a class="active" href="index.html">Accueil</a></li>
+                <div class="hidden"><li>|</li></div>
+                <li><a href="programme.html">Programme</a></li>
+                <div class="hidden"><li>|</li></div>
+                <li><a href="actualites.html">Actualités</a></li>
+              </ul>
+            </div>
+            <div class="btn-preinscription"><a class="button" href="pre-inscription.html">Pré-inscription</a></div>
           </nav>
       </header>
       <main>
@@ -106,7 +116,9 @@
           </div>
         </div>
         <div class="reservation">
-          <div class="banniere"></div>
+          <div class="banniere">
+            <img src="images/img-festival.jpg" alt="">
+          </div>
           <div class="informations">
           <h1>Festival des Films de Plein Air, <br>projection de films gratuite et ouverte à tous</h1>
           <p>Où ? Au Parc Monceau, à Paris</p>
@@ -118,7 +130,6 @@
       <footer>
         <div class="footer-top">
           <div class="columns">
-            
             <div class="left-col"><a class="button" href="contact.html">Nous Contacter</a>
               <ul class="reseaux">
                 <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt=""></a></li>
