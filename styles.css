@@ -526,6 +526,10 @@ legend{
     display: none;
 }
 
+.num-seance-mobile{
+    text-transform: uppercase;
+}
+
 @media only screen and (max-width: 600px) {
     
     .dropdown{
