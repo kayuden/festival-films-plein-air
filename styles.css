@@ -285,6 +285,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-size: medium;
+    padding-bottom: 10px;
 }
 footer ul li{
     display: inline;
@@ -307,6 +308,7 @@ footer ul.reseaux a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 footer div.left-col{
@@ -321,6 +323,10 @@ footer .right-col img{
     width: 150px;
 }
 
+.hidden-footer{
+    display: inline;
+}
+
 .copyright{
     background-color: #171717;
     color: #646464;
@@ -332,7 +338,7 @@ footer .right-col img{
     margin-top: 10px;
 }
 
-.pre-inscription, .contact, .programme{
+.preinscription, .contact, .programme{
     padding-top: 50px;
 }
 
@@ -520,8 +526,6 @@ legend{
     display: none;
 }
 
-
-
 @media only screen and (max-width: 600px) {
     
     .dropdown{
@@ -529,6 +533,10 @@ legend{
     }
 
     .hidden{
+        display: none;
+    }
+
+    .hidden-footer{
         display: none;
     }
 
