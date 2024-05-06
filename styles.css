@@ -652,6 +652,11 @@ legend{
         font-size: 30px;
     }
 
+    .s1-img, .s2-img{
+        display: flex;
+        justify-content: center;
+    }
+
     footer ul.footer-links{
         text-align: center;
     }
