@@ -659,6 +659,7 @@ legend{
     .s1-img, .s2-img{
         display: flex;
         justify-content: center;
+        margin-bottom: 10px;
     }
 
     footer ul.footer-links{
